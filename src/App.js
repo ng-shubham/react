@@ -1,11 +1,13 @@
 import './App.css';
-import Greet from './components/Greet';
-import Welcome from './components/Welcome';
+// import Greet from './components/Greet';
+// import Welcome from './components/Welcome';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App"> 
-      <Greet name="Kunal" heroname="Batman"> 
+      <Message />
+      {/* <Greet name="Kunal" heroname="Batman"> 
         <p>This is childrem props</p>
       </Greet>
       <Greet name="Sanket" heroname="X-man"> 
@@ -15,7 +17,7 @@ function App() {
 
       <Welcome name="Priyanka" degree="MCA" />
       <Welcome name="Sayali" degree="MBA" />
-      <Welcome name="Mohini" degree="BBA" />
+      <Welcome name="Mohini" degree="BBA" /> */}
     </div>
   );
 }
