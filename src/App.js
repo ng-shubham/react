@@ -8,7 +8,7 @@ import './App.css';
 // import UserGreeting from './components/UserGreeting'; 
 // import PersonList from './components/PersonList';
 // import Stylesheet from './components/Stylesheet';
-// import Inline from './components/Inline';
+// import Inline from './components/Inline'; 
 import BasicForm from './components/BasicForm';
 
 function App() {
