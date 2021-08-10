@@ -4,7 +4,7 @@ const Greet = (props) => {
     console.log(props);
     return (
         <div>
-            <h1>Hello {props.name} a.k.a {props.heroname} </h1>
+            <h5>Hello {props.name} a.k.a {props.heroname} </h5>
             {props.children}
         </div>
     )
